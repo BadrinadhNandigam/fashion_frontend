@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "teja",
+      "email": "teja@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "name": "Badri",
+      "email": "badri@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Nandigam Badrinadh",
+      "email": "bnandiga@gitam.in",
+      "password": "123456",
+      "id": "oszWQe77PII"
+    }
+  ],
+  "products": [
+    {
+      "id": "3",
+      "name": "Floral Summer Dress",
+      "brand": "Fashion Hub",
+      "category": "Women",
+      "type": "Dress",
+      "price": 1899,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446",
+      "description": "A beautiful floral summer dress designed for comfort and style.",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Floral",
+      "material": "Polyester",
+      "stock": 20
+    },
+    {
+      "id": "5",
+      "name": "Kimono (Japanese)",
+      "brand": "The Fashion Wear (IDHI MANA STYLE)",
+      "category": "Men",
+      "type": "Kurthi",
+      "price": 4500,
+      "rating": 4.8,
+      "image": "https://th.bing.com/th/id/R.fbc8d7f865a693e51dcd4f88ece05d01?rik=%2bO70XnEKJR96uw&riu=http%3a%2f%2fjapaneseonimasks.com%2fcdn%2fshop%2fproducts%2fproduct-image-1736912357_4d5bb5ae-111e-4c8a-863d-68d6055c0cd6.jpg%3fv%3d1639992089&ehk=ipaxSeMv%2f%2bFB2WNe9FF3jl6eK4Bv6CY1ABzAtwxTkYY%3d&risl=&pid=ImgRaw&r=0",
+      "description": "A kimono for men is a traditional Japanese garment designed for formal or casual occasions, featuring T-shaped, loose-fitting designs and a broad range of fabrics and patterns.",
+      "color": "Wine Red",
+      "material": "Cotton",
+      "size": [
+        "L"
+      ],
+      "stock": 200
+    },
+    {
+      "id": "6",
+      "name": "Chima jeogori (치마저고리)",
+      "brand": "The Fashion Wear (IDHI MANA STYLE)",
+      "category": "Women",
+      "type": "Lehnga Matru",
+      "price": 4880,
+      "rating": 4.4,
+      "image": "https://i.pinimg.com/736x/0f/e6/6c/0fe66c60f2a5c816bbf0cc8774fc9c7e.jpg",
+      "description": "Chima jeogori (Korean: 치마저고리) refers to a traditional outfit for Korean women, which consists of a chima skirt and jeogori top. It is a form of hanbok, the traditional Korean form of dress.",
+      "color": "White and OrangeYellow",
+      "material": "Silk",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 300
+    },
+    {
+      "id": "7",
+      "name": "Baji (바지)",
+      "brand": "The Fashion Wear (IDHI MANA STYLE)",
+      "category": "Unisex",
+      "type": "Baggy Pant",
+      "price": 2003,
+      "rating": 3.2,
+      "image": "https://i.pinimg.com/736x/e5/e8/19/e5e81951d33122deda2d4c01bb32001b.jpg",
+      "description": "Baji (바지) are traditional Korean pants that are part of the hanbok. They are characterized by their loose and baggy fit, designed for comfort and mobility.",
+      "color": "Dark Cement Grey",
+      "material": "Jeans",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 250
+    },
+    {
+      "name": "Men's Suit Vest",
+      "brand": "The Fashion Wear (IDHI MANA STYLE)",
+      "category": "Men",
+      "type": "Suit",
+      "price": 9999,
+      "image": "https://images.hawesandcurtis.com/tr:q-80/WC/WCPRAS04-F33-202529-1400px-1820px.jpg",
+      "description": "Men's suit vests, also known as waistcoats, are versatile formal garments that complete three-piece suits or enhance business and wedding attire, available in a variety of styles, fabrics, and fits in India.",
+      "color": "White and Gray",
+      "material": "Cotton",
+      "size": [
+        "M",
+        "L"
+      ],
+      "rating": 4.5,
+      "stock": 20,
+      "id": "q5-pn0b39YY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
