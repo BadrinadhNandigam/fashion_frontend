@@ -1,16 +1,57 @@
-# React + Vite
+# Fashion Store – React.js E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive fashion store web application built with **React.js**. This project demonstrates reusable React components, client-side routing, REST API integration, CRUD operations, authentication flow, Redux Toolkit state management, LocalStorage persistence, and responsive CSS design.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Website:**  
+https://fashionfrontend-blond.vercel.app/
 
-## React Compiler
+> **Deployment Note:** The Vercel URL hosts the frontend. During development, the project uses JSON Server as the backend. For a fully remote production setup, the Axios `baseURL` should point to a publicly deployed backend instead of `http://localhost:3000`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fashion Store is a frontend e-commerce application where users can:
+
+- Browse fashion products
+- Search products by name
+- Filter products by category
+- Filter products by price range
+- Sort products by rating
+- View detailed product information
+- Register and log in
+- Log out
+- Access protected pages after login
+- Add and remove products from Favorites
+- Persist login and favorite data using LocalStorage
+- Create, update, view, and delete products
+
+The application uses custom CSS for a clean and responsive user interface.
+
+---
+
+## ✨ Main Features
+
+### 1. Product Management
+
+The application supports CRUD operations for products:
+
+- **Create** – Add a new product
+- **Read** – View products and product details
+- **Update** – Edit product information
+- **Delete** – Remove products
+
+Product data is handled through REST API requests using Axios and JSON Server.
+
+---
+
+### 2. Product Search
+
+Users can search products by their name.
+
+Example:
+
+```text
+Search: shirt
